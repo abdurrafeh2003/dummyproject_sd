@@ -30,7 +30,9 @@ const productData = {
             29: { name: "Dark Floral Shirt", brand: "adidas", price: 85 },
             30: { name: "Color Block Shirt", brand: "adidas", price: 92 },
             31: { name: "Casual Khaki Pants", brand: "adidas", price: 115 },
-            32: { name: "Paisley Print Blouse", brand: "adidas", price: 68 }
+            32: { name: "Paisley Print Blouse", brand: "adidas", price: 68 },
+            33: { name: "Cartoon Astronaut T-Shirts", brand: "adidas", price: 78 }
+
         };
 
         // Cart functionality

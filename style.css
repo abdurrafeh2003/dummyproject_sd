@@ -322,7 +322,7 @@ left: 20px;
 }
 
 .product-card:hover {
-    transform: translateY(-10px);
+    
     box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
 
@@ -395,8 +395,8 @@ left: 20px;
 }
 
 .add-to-cart {
-    background: linear-gradient(45deg, #667eea, #764ba2);
-    color: rgb(0, 0, 0);
+    background: linear-gradient(0deg, #088178, #088178);
+    color: rgb(255, 255, 255);
     border: none;
     padding: 11.2px 24px; /* 0.7rem to px and 1.5rem to px */
     border-radius: 25px;
@@ -408,7 +408,7 @@ left: 20px;
 
 .add-to-cart:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(102,126,234,0.4);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
 }
 
 .add-to-cart:active {
@@ -476,7 +476,7 @@ left: 20px;
         }
 
         .checkout-btn {
-            background: linear-gradient(45deg, #667eea, #764ba2);
+            background: linear-gradient(45deg, #088178, #088178);
             color: white;
             border: none;
             padding: 16px 32px;

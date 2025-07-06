@@ -91,7 +91,7 @@
                 <option>Large</option>
             </select>
             <input type="number" value="1">
-            <button>Add To Cart</button>
+            <button class="add-to-cart" onclick="addToCart(33)">🛒 Add</button>
             <h4>Product Details</h4>
             <p>The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 oz. per
                 sq. yd. <br>fabric constructed from 100% cotton, this classic fit preshrunk
@@ -203,6 +203,20 @@
             <button>Sign Up</button>
         </div>
     </section>
+     <!-- Cart Modal -->
+     <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h2>Shopping Cart</h2>
+                <button class="close-cart" onclick="toggleCart()">×</button>
+            </div>
+            <div id="cartItems"></div>
+            <div class="cart-total">
+                <h3>Total: $<span id="cartTotal">0</span></h3>
+                <button class="checkout-btn" onclick="checkout()">Checkout</button>
+            </div>
+        </div>
+    </div>
 
     <footer class="section-p1">
         <div class="col">
@@ -266,7 +280,7 @@
         }
     }
 </script>
- <link rel="stylesheet" href="script.js">
+ <script src="script.js"></script>
 </body>
 
 </html>
